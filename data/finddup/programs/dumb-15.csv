@@ -1,0 +1,2 @@
+f(A,B):-element(A,B),head(A,C),decrement(C,D),decrement(D,E),one(E).
+%time,300.70724606513977

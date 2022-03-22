@@ -1,0 +1,2 @@
+f(A,B):-zero(E),head(A,C),increment(E,D),increment(D,B),geq(C,D).
+%time,300.6943407058716

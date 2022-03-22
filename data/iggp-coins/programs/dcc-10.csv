@@ -1,0 +1,2 @@
+next_cell(A,B,C):-my_true_cell(A,B,C),my_pos(D),my_succ(B,E),does_jump(A,F,E,D),role(F).
+%time,300.4549911022186

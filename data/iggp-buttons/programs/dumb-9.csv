@@ -1,0 +1,2 @@
+next(A,B):-c_q(B),c_a(C),my_true(A,B),does(A,D,C),my_input(D,C).
+%time,300.6458308696747

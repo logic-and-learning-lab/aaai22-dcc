@@ -1,0 +1,2 @@
+f(A,B):-tail(A,C),element(C,D),one(D),element(A,B).
+%time,300.70234513282776

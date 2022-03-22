@@ -1,0 +1,3 @@
+f(A,B):-head(A,E),tail(A,C),f(C,D),cons(E,D,B).
+f(A,B):-tail(A,B).
+%time,2.9086568355560303

@@ -1,0 +1,2 @@
+f(A):-has_car(A,C),has_load(C,E),hexagon(E),has_car(A,D),has_load(D,B),triangle(B).
+%time,300.68348598480225

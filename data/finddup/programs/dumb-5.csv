@@ -1,0 +1,2 @@
+f(A,B):-tail(A,E),element(E,B),decrement(B,D),decrement(D,C),element(E,C).
+%time,300.65952610969543

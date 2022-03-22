@@ -1,0 +1,3 @@
+f(A,B,C):-decrement(B,D),f(A,D,E),tail(E,C).
+f(A,B,C):-one(B),tail(A,C).
+%time,2.603635787963867

@@ -1,0 +1,2 @@
+f(A,B):-head(A,D),increment(D,C),increment(C,B).
+%time,300.6778748035431

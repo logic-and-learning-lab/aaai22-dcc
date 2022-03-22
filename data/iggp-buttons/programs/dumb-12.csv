@@ -1,0 +1,2 @@
+next(A,B):-my_succ(C,B),my_true(A,C).
+%time,300.6759829521179

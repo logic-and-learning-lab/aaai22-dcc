@@ -1,0 +1,4 @@
+f(A):-has_car(A,C),roof_flat(C),long(C),has_car(A,B),short(B),roof_open(B).
+f(A):-has_car(A,E),has_load(E,B),hexagon(B),has_car(A,C),has_load(C,D),triangle(D).
+f(A):-has_car(A,B),has_load(B,D),diamond(D),has_load(B,C),rectangle(C).
+%time,300.6943202018738

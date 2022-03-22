@@ -1,0 +1,3 @@
+f(A,B):-tail(A,D),f(D,C),increment(C,B).
+f(A,B):-empty(A),zero(B).
+%time,36.280643939971924

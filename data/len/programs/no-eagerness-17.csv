@@ -1,0 +1,7 @@
+f(A,B):-zero(B),empty(A).
+f(A,B):-tail(A,D),tail(D,E),head(E,C),decrement(C,B).
+f(A,B):-tail(A,C),f(C,D),increment(D,B).
+f(A,B):-head(A,D),increment(D,C),increment(C,B).
+f(A,B):-head(A,C),increment(C,B).
+f(A,B):-tail(A,D),tail(D,C),f(C,B).
+%time,300.6600170135498

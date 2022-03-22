@@ -1,0 +1,3 @@
+f(A):-tail(A,B),f(B).
+f(A):-head(A,C),odd(C),tail(A,B),head(B,C).
+%time,18.249420881271362

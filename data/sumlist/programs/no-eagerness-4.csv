@@ -1,0 +1,4 @@
+f(A,B):-tail(A,C),head(A,E),f(C,D),sum(D,E,B).
+f(A,B):-tail(A,E),head(A,D),f(E,C),sum(D,C,B).
+f(A,B):-head(A,B).
+%time,300.6793918609619

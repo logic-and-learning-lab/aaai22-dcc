@@ -1,0 +1,2 @@
+f(A,B):-element(A,C),element(A,B),even(B),geq(B,C).
+%time,300.7041141986847

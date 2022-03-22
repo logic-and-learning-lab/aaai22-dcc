@@ -1,0 +1,2 @@
+next_cell(A,B,C):-my_pos(D),does_jump(A,F,B,E),c_zerocoins(C),does_jump(A,F,D,E).
+%time,300.42333817481995

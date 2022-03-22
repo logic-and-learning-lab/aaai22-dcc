@@ -1,0 +1,2 @@
+next_cell(A,B,C):-different(F,D),does_jump(A,E,F,D),does_jump(A,E,B,D),c_zerocoins(C).
+%time,300.7209258079529

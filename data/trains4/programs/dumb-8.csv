@@ -1,0 +1,2 @@
+f(A):-has_car(A,D),has_load(D,B),has_load(D,C),rectangle(C),diamond(B).
+%time,300.6835820674896

@@ -1,0 +1,2 @@
+f(A):-has_car(A,C),short(C),has_car(A,B),roof_flat(B),roof_open(C).
+%time,300.674742937088

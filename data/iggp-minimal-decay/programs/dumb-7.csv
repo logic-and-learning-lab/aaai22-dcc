@@ -1,0 +1,2 @@
+next_value(A,B):-c_player(C),does(A,C,D),c_pressButton(D),c5(B).
+%time,300.6631848812103

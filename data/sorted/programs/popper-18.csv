@@ -1,0 +1,3 @@
+f(A):-tail(A,E),head(E,C),head(A,B),decrement(C,D),decrement(D,B).
+f(A):-tail(A,B),f(B).
+%time,15.762985944747925

@@ -1,0 +1,8 @@
+f(A,B):-tail(A,C),head(C,B),odd(B).
+f(A,B):-element(A,D),tail(A,C),head(C,B),geq(D,B).
+f(A,B):-element(A,C),element(A,B),odd(B),geq(C,B).
+f(A,B):-element(A,D),element(A,B),decrement(B,C),decrement(C,D).
+f(A,B):-head(A,B).
+f(A,B):-tail(A,E),tail(E,D),tail(D,C),element(C,B),head(D,B).
+f(A,B):-element(A,C),element(A,B),decrement(B,D),decrement(D,E),decrement(E,C).
+%time,24.048239946365356

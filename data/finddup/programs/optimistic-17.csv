@@ -1,0 +1,5 @@
+f(A,B):-element(A,D),decrement(D,C),element(A,C),element(A,B).
+f(A,B):-head(A,C),decrement(C,D),decrement(D,B).
+f(A,B):-tail(A,D),tail(D,C),head(C,B).
+f(A,B):-tail(A,D),element(D,C),element(D,E),decrement(E,C),element(A,B).
+%time,20.01851511001587

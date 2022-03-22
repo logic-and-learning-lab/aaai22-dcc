@@ -1,0 +1,7 @@
+f(A):-head(A,B),one(B).
+f(A):-tail(A,D),head(A,C),head(D,B),decrement(B,C).
+f(A):-tail(A,B),tail(B,E),tail(E,C),head(C,D),head(E,D).
+f(A):-tail(A,B),head(B,C),head(A,C).
+f(A):-tail(A,D),tail(D,C),head(D,B),head(C,E),decrement(E,B).
+f(A):-head(A,B),decrement(B,E),decrement(E,C),decrement(C,D),one(D).
+%time,300.68917298316956

@@ -1,0 +1,2 @@
+f(A):-has_car(A,C),has_load(C,B),inverted_triangle(B),two_wheels(C),three_load(B).
+%time,300.67444229125977

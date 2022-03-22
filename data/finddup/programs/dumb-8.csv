@@ -1,0 +1,2 @@
+f(A,B):-element(A,B),even(B),tail(A,C),element(C,D),even(D).
+%time,300.6885230541229

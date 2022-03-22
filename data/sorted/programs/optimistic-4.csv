@@ -1,0 +1,4 @@
+f(A):-head(A,D),tail(A,B),odd(D),head(B,C),geq(C,D).
+f(A):-tail(A,D),tail(D,C),head(D,B),head(C,E),decrement(E,B).
+f(A):-head(A,C),decrement(C,B),decrement(B,D),decrement(D,E),one(E).
+%time,12.765403270721436

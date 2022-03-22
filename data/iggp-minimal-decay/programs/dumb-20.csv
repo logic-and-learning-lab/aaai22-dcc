@@ -1,0 +1,2 @@
+next_value(A,B):-my_true_value(A,B),c5(B).
+%time,300.59169912338257

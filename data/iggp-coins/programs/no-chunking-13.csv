@@ -1,0 +1,6 @@
+next_cell(A,B,C):-my_true_cell(A,B,C),my_true_cell(A,F,C),my_succ(B,E),role(D),does_jump(A,D,E,F).
+next_cell(A,B,C):-c_zerocoins(C),does_jump(A,D,B,E),does_jump(A,D,F,E),my_pos(F).
+next_cell(A,B,C):-different(B,F),my_true_cell(A,B,C),different(B,E),role(D),does_jump(A,D,E,F).
+next_cell(A,B,C):-my_pos(E),c_twocoins(C),does_jump(A,F,D,B),does_jump(A,F,D,E).
+next_cell(A,B,C):-my_true_cell(A,E,C),my_true_cell(A,B,C),role(F),my_succ(D,B),does_jump(A,F,D,E).
+%time,300.6702871322632

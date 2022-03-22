@@ -1,0 +1,5 @@
+next_value(A,B):-my_succ(C,B),my_true_value(A,C),c5(B).
+next_value(A,B):-c5(B),c_pressButton(C),c_player(D),does(A,D,C).
+next_value(A,B):-c_noop(C),my_succ(B,E),my_true_value(A,E),c_player(D),does(A,D,C).
+next_value(A,B):-my_true_value(A,B),c5(B).
+%time,300.6562330722809

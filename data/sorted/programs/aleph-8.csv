@@ -1,0 +1,6 @@
+f([13,29,56,69]).
+f(A):-head(A,B),one(B).
+f(C):-tail(C,D),tail(D,E),f(E).
+f(F):-head(F,G),tail(F,H),head(H,I),decrement(I,G).
+f([3,8,10,36,37,44,59,63,81,83]).
+%time,1.1317188739776611

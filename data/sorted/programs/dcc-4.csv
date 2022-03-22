@@ -1,0 +1,3 @@
+f(A):-tail(A,B),empty(B).
+f(A):-head(A,B),tail(A,D),head(D,C),geq(C,B),f(D).
+%time,24.91794776916504

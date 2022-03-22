@@ -1,0 +1,2 @@
+next_value(A,B):-does(A,C,D),c_player(C),c_pressButton(D),c5(B).
+%time,300.67597818374634

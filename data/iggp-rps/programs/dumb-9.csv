@@ -1,0 +1,2 @@
+next_score(A,B,C):-does(A,E,F),different(D,E),does(A,D,F),my_true_score(A,B,C).
+%time,300.6738579273224

@@ -1,0 +1,2 @@
+f(A):-tail(A,C),head(C,D),head(A,B),even(B),geq(D,B).
+%time,300.6895959377289

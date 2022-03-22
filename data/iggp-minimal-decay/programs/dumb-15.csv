@@ -1,0 +1,2 @@
+next_value(A,B):-my_true_value(A,D),c_player(C),my_succ(B,D),c_noop(E),does(A,C,E).
+%time,300.6631848812103

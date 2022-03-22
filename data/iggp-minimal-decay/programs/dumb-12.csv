@@ -1,0 +1,2 @@
+next_value(A,B):-my_succ(C,B),my_true_value(A,C),c4(C).
+%time,300.65620398521423
